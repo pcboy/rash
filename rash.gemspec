@@ -2,11 +2,11 @@
 lib = File.expand_path('../lib/', __FILE__)
 $:.unshift lib unless $:.include?(lib)
  
-require 'bundler/version'
+require 'rash'
  
 Gem::Specification.new do |s|
   s.name        = "rash"
-  s.version     = '0.1.0'
+  s.version     = Rash::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["David Hagege"]
   s.email       = ["david@myndpage.com"]
