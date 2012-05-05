@@ -9,6 +9,7 @@ class Rash < Hash
       genkey = gen_uuid
     end while (has_key?(genkey))
     self[genkey] = value
+    genkey
   end
 
   private
